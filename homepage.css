@@ -1,0 +1,497 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Poppins';
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #F9F6EE;
+}
+
+.wrapper {
+    max-width: fit-content;
+    /* margin-left: 175px; */
+    /* margin-left: 175px; */
+    position: relative;
+}
+
+/* Header */
+
+header {
+    position: relative;
+    width: 100vw;
+    height: 285px;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: auto;
+}
+
+.header-logo{
+    position: relative;
+    left: 171px;
+    top: 26px;
+}
+
+header nav ul{
+    position: absolute;
+    top: 118px;
+    left: 442px;
+    white-space: nowrap;
+    display: flex;
+    list-style: none;
+    gap: 52px;
+}
+
+header nav ul li a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 52px;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+button{
+  position: absolute;
+  height: 68px;
+  border: none;
+
+  border-radius: 56px;
+
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  cursor: pointer;
+}
+
+.header-icon{
+    position: absolute;
+    left: 1489px;
+    top: 118px;
+}
+
+button.signup{
+    width: 191px;
+    height: 68px;
+    background: #FF6666;
+    left: 1551px;
+    top: 110px;
+    color: #F9F6EE;
+}
+
+
+/* Main Content */
+
+h1{
+    position: absolute;
+    width: 659px;
+    left: 172px;
+    top: 92px;
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.bigphoto{
+    position: absolute;
+    left: 881px;
+}
+
+button.viewmenu{
+    background: #FF6666;
+    left: 171px;
+    top: 580px;
+    color: #F9F6EE;
+    width: 220px;
+    height: 74px;
+}
+
+button.booknow{
+    background: #FFFFFF;
+    color: #616161;
+    left: 417px;
+    top: 580px;
+    width: 220px;
+    height: 74px;
+}
+
+h3{
+    position: absolute;
+    display: flex;
+    left: 171px;
+    top: 700px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.reviews{
+    position: absolute;
+    top: 751px;
+    left: 171px;
+}
+
+.stars{
+    position: absolute;
+    top: 809px;
+    left: 171px;
+}
+
+h2{
+    position: absolute;
+    color: #464646;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h2.bestsell{
+    position: absolute;
+    width: 663px;
+    top: 993px;
+    left: 628px;
+}
+
+.content{
+    position: absolute;
+    width: 505px;
+    height: 481px;
+    border-radius: 72px;
+    /* background: linear-gradient(148deg, #FFF 0%, #303030 64.58%, rgba(38, 38, 38, 0.90) 72.92%, rgba(0, 0, 0, 0.51) 100%);  */
+    background: linear-gradient(148deg,#BBB8B1 0%,#F8F5ED 70%);
+    background-blend-mode: difference;
+    box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+h4{
+    position: absolute;
+    color: #464646;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    top: 164px;
+}
+
+h6{
+    position: absolute;
+    color: #464646;
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    top: 218px;
+}
+
+h5{
+    position: absolute;
+    color: #464646;
+    text-align: center;
+    font-family: Podkova;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: 335px;
+}
+
+
+/* CONTENT NASI GORENG */
+
+.content#nasi-goreng{
+    position: absolute;
+    top: 1321px;
+    left: 173px;
+}
+
+.content#nasi-goreng img{
+    position: absolute;
+    left: 71px;
+    top: -97px;
+}
+
+.content#nasi-goreng h4{
+    left: 155px;
+}
+
+.content#nasi-goreng h6{
+    left: 160px;
+}
+
+.content#nasi-goreng h5{
+    left: 172px;
+}
+
+
+/* CONTENT FRIES */
+
+.content#fries{
+    position: absolute;
+    top: 1321px;
+    left: 708px;
+}
+
+.content#fries h4{
+    left: 135px;
+}
+
+.content#fries h6{
+    left: 158px;
+}
+
+.content#fries h5{
+    left: 172px;
+}
+
+.content#fries img{
+    position: absolute;
+    top: -207px;
+    left: 20.69px;
+}
+
+
+/* CONTENT AMERICANO  */
+
+.content#americano{
+    position: absolute;
+    top: 1321px;
+    left: 1242px;
+}
+
+.content#americano h4{
+    left: 140px;
+}
+
+.content#americano h6{
+    left: 172px;
+}
+
+.content#americano h5{
+    left: 171px;
+}
+
+.content#americano img{
+    position: absolute;
+    top: -132px;
+    left: 84px;
+}
+
+
+h2.ourloc{
+    position: absolute;
+    left: 633px;
+    top: 1961px;
+    white-space: nowrap;
+}
+
+
+.location-icon{
+    position: absolute;
+    top: 2113px;
+    left: 901px;
+}
+
+
+/* MAP */
+
+h4{
+    position: absolute;
+
+    color: #464646;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+}
+
+/* Sunter */
+
+.sunter h4.a1{
+    top: 2263px;
+    left: 725px;
+    white-space: nowrap;
+
+    font-weight: 500;
+}
+
+.sunter iframe{
+    position: absolute;
+    width: 1334px;
+    height: 973px;
+    top: 2340px;
+    left: 293px;
+}
+
+.sunter h4.a2{
+    top: 3363px;
+    left: 878px;
+    white-space: nowrap;
+
+    font-weight: 400;
+}
+
+.sunter h4.a3{
+    top: 3426px;
+    left: 760px;
+    white-space: nowrap;
+
+    font-weight: 400;
+}
+/* Bekasi */
+
+.bekasi h4.a1{
+    top: 3559px;
+    left: 738px;
+    white-space: nowrap;
+
+    font-weight: 500;
+}
+
+.bekasi iframe{
+    position: absolute;
+    width: 1334px;
+    height: 973px;
+    top: 3636px;
+    left: 293px;
+}
+
+.bekasi h4.a2{
+    top: 4659px;
+    left: 878px;
+    white-space: nowrap;
+
+    font-weight: 400;
+}
+
+.bekasi h4.a3{
+    top: 4722px;
+    left: 818px;
+    white-space: nowrap;
+
+    font-weight: 400;
+}
+
+/* Blok M */
+
+.blokm h4.a1{
+    top: 4855px;
+    left: 723px;
+    white-space: nowrap;
+
+    font-weight: 500;
+}
+
+.blokm iframe{
+    position: absolute;
+    width: 1334px;
+    height: 973px;
+    top: 4932px;
+    left: 293px;
+}
+
+.blokm h4.a2{
+    top: 5955px;
+    left: 878px;
+    white-space: nowrap;
+
+    font-weight: 400;
+}
+
+.blokm h4.a3{
+    top: 6018px;
+    left: 793px;
+    white-space: nowrap;
+
+    font-weight: 400;
+}
+
+/* Footer */
+
+footer{
+    background-color: #252424;
+    position: absolute;
+    top: 6503px; /* top = Jarak footer ke atas page */
+    width: 100%;
+    height: 369px;
+}
+
+.footer-logo{
+    position: absolute;
+    top: 17px;
+    left: 844px;
+}
+
+footer nav ul{
+    position: absolute;
+    top: 118px;
+    left: 651px;
+    white-space: nowrap;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+footer nav ul li a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: normal;
+  text-decoration: none;
+
+  color: #C4C1BB;
+}
+
+.social-media{
+    position: absolute;
+    left: 813px;
+    top: 208px;
+}
+
+.copyright{
+    position: absolute;
+    left: 800px;
+    top: 315px;
+
+    color: #F9F6EE;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 0.5;
+}
